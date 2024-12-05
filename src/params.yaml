@@ -1,0 +1,40 @@
+preprocess: 
+
+    Numerical_Variable: 
+        - trip_distance
+        - PULocationID 
+        - DOLocationID 
+        - fare_amount 
+        - extra
+        - tolls_amount 
+        - total_amount
+    
+    Categorical_Variable: 
+        - store_and_fwd_flag
+
+    Discrete_Variable: 
+        - VendorID
+        - passenger_count 
+        - RatecodeID
+        - payment_type
+        - mta_tax
+        - improvement_surcharge 
+        - congestion_surcharge
+        - airport_fee
+    
+    Datetime_Variable: 
+        - tpep_pickup_datetime
+        - tpep_dropoff_datetime
+    
+    Target_Variable:
+        - tip_amount
+
+train_evaluate: 
+    train_test_split: 
+        Target_Variable: 
+            - tip_amount
+        test_size: 0.3
+        random_state : 32
+        shuffle: True 
+    model_evaluation: 
+
