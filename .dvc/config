@@ -1,6 +1,8 @@
 [cache]
     dir = /Users/mikosa/data
 [core]
-    remote = myremote
+    remote = azure_
 ['remote "myremote"']
+    url = azure://data
+['remote "azure_"']
     url = azure://data
