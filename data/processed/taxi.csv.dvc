@@ -1,0 +1,5 @@
+outs:
+- md5: 8a98174ec2802c5e2880086b1233790f
+  size: 260847218
+  hash: md5
+  path: taxi.csv

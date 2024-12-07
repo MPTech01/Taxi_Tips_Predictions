@@ -3,7 +3,6 @@ import pandas as pd
 from log_file import set_up_logs, log_message
 
 
-
 logger = set_up_logs(__name__, 'utils.log') 
 
 def load_config(path: str) -> dict:
@@ -29,10 +28,10 @@ def load_config(path: str) -> dict:
 
 def load_data(file: str, target: str) -> tuple[pd.DataFrame, pd.Series]:
     """
-    Load data from a CSV file and split it into features (X) and target (y).
+    Load data from a parquet file and split it into features (X) and target (y).
 
     Args:
-        file (str): The path to the CSV file.
+        file (str): The path to the parquet file.
         target (str): The name of the target column.
 
     Returns:
@@ -42,7 +41,7 @@ def load_data(file: str, target: str) -> tuple[pd.DataFrame, pd.Series]:
         ValueError: If the target column is not found in the dataset.
     """
     try:
-        data = pd.read_csv(file)
+        data = pd.read_parquet(file)
         
         # Ensure the target column exists in the DataFrame
         if target not in data.columns:

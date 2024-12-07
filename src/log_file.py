@@ -1,9 +1,8 @@
 import logging
 import os 
 
-
 # Define the log directory
-log_dir = os.path.join(os.path.dirname(os.getcwd()), 'log_folder')
+log_dir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'log_folder')
 
 # Create the directory if it doesn't exist
 os.makedirs(log_dir, exist_ok=True)

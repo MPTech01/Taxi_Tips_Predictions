@@ -1,0 +1,38 @@
+2024-12-07 14:07:17,362 - ERROR - Pipeline failed with error: 'NoneType' object is not subscriptable
+2024-12-07 14:42:16,586 - INFO -  Parquet File successfull loaded /Users/mikosa/Taxi_Tips_Predictions/data/raw/yellow_tripdata_2023-01.parquet
+2024-12-07 14:42:16,907 - INFO -  Discrete variable  transformed from ['VendorID', 'passenger_count', 'RatecodeID', 'payment_type', 'mta_tax', 'improvement_surcharge', 'congestion_surcharge', 'airport_fee']
+2024-12-07 14:42:17,508 - ERROR -  Column not found in ['store_and_fwd_flag'] 
+2024-12-07 14:42:17,521 - ERROR -  Feature Engineering could not be completed 'NoneType' object has no attribute 'copy'
+2024-12-07 14:42:17,521 - ERROR - Pipeline failed with error: 'NoneType' object has no attribute 'to_csv'
+2024-12-07 14:43:29,652 - INFO -  Parquet File successfull loaded /Users/mikosa/Taxi_Tips_Predictions/data/raw/yellow_tripdata_2023-01.parquet
+2024-12-07 14:43:30,011 - INFO -  Discrete variable  transformed from ['VendorID', 'passenger_count', 'RatecodeID', 'payment_type', 'mta_tax', 'improvement_surcharge', 'congestion_surcharge', 'airport_fee']
+2024-12-07 14:43:30,666 - ERROR -  Column not found in ['store_and_fwd_flag'] 
+2024-12-07 14:43:30,679 - ERROR -  Feature Engineering could not be completed 'NoneType' object has no attribute 'copy'
+2024-12-07 14:43:30,679 - ERROR - Pipeline failed with error: 'NoneType' object has no attribute 'to_csv'
+2024-12-07 14:47:50,825 - ERROR - Pipeline failed with error: 'NoneType' object is not subscriptable
+2024-12-07 14:48:17,971 - ERROR - Pipeline failed with error: 'NoneType' object is not subscriptable
+2024-12-07 14:53:26,830 - ERROR - Pipeline failed with error: 'NoneType' object is not subscriptable
+2024-12-07 14:53:29,702 - ERROR - Pipeline failed with error: 'NoneType' object is not subscriptable
+2024-12-07 14:54:19,530 - INFO - Successfully loaded Parquet file: /Users/mikosa/Taxi_Tips_Predictions/data/raw/yellow_tripdata_2023-01.parquet
+2024-12-07 14:54:19,900 - INFO - Discrete variables transformed for columns: ['VendorID', 'passenger_count', 'RatecodeID', 'payment_type', 'mta_tax', 'improvement_surcharge', 'congestion_surcharge', 'airport_fee']
+2024-12-07 14:54:20,499 - ERROR - Column(s) not found: ['store_and_fwd_flag']
+2024-12-07 14:54:20,512 - ERROR - Error during feature engineering: 'NoneType' object has no attribute 'copy'
+2024-12-07 14:54:20,512 - ERROR - Pipeline failed with error: 'NoneType' object has no attribute 'to_csv'
+2024-12-07 14:55:13,980 - INFO - Successfully loaded Parquet file: /Users/mikosa/Taxi_Tips_Predictions/data/raw/yellow_tripdata_2023-01.parquet
+2024-12-07 14:55:14,301 - INFO - Discrete variables transformed for columns: ['VendorID', 'passenger_count', 'RatecodeID', 'payment_type', 'mta_tax', 'improvement_surcharge', 'congestion_surcharge', 'airport_fee']
+2024-12-07 14:55:15,165 - INFO - Object variables transformed for columns: ['store_and_fwd_flag']
+2024-12-07 14:55:16,515 - INFO - Feature engineering completed for columns: ['trip_distance', 'PULocationID', 'DOLocationID', 'fare_amount', 'extra', 'tolls_amount', 'total_amount'], date columns: ['tpep_pickup_datetime', 'tpep_dropoff_datetime'], and discrete columns: ['VendorID', 'passenger_count', 'RatecodeID', 'payment_type', 'mta_tax', 'improvement_surcharge', 'congestion_surcharge', 'airport_fee']
+2024-12-07 14:55:31,768 - INFO - Preprocessing completed successfully
+2024-12-07 14:57:12,955 - ERROR - Pipeline failed with error: 'NoneType' object is not subscriptable
+2024-12-07 16:34:23,320 - INFO - Successfully loaded Parquet file: /Users/mikosa/Taxi_Tips_Predictions/data/raw/yellow_tripdata_2023-01.parquet
+2024-12-07 16:34:23,730 - INFO - Discrete variables transformed for columns: ['VendorID', 'passenger_count', 'RatecodeID', 'payment_type', 'mta_tax', 'improvement_surcharge', 'congestion_surcharge', 'airport_fee']
+2024-12-07 16:34:24,515 - INFO - Object variables transformed for columns: ['store_and_fwd_flag']
+2024-12-07 16:34:25,793 - INFO - Feature engineering completed for columns: ['trip_distance', 'PULocationID', 'DOLocationID', 'fare_amount', 'extra', 'tolls_amount', 'total_amount'], date columns: ['tpep_pickup_datetime', 'tpep_dropoff_datetime'], and discrete columns: ['VendorID', 'passenger_count', 'RatecodeID', 'payment_type', 'mta_tax', 'improvement_surcharge', 'congestion_surcharge', 'airport_fee']
+2024-12-07 16:34:41,287 - INFO - Preprocessing completed successfully
+2024-12-07 16:58:52,566 - ERROR - Pipeline failed with error: 'NoneType' object is not subscriptable
+2024-12-07 17:10:30,743 - ERROR - Pipeline failed with error: 'NoneType' object is not subscriptable
+2024-12-07 17:12:21,981 - INFO - Successfully loaded Parquet file: /Users/mikosa/Taxi_Tips_Predictions/data/raw/yellow_tripdata_2023-01.parquet
+2024-12-07 17:12:22,359 - INFO - Discrete variables transformed for columns: ['VendorID', 'passenger_count', 'RatecodeID', 'payment_type', 'mta_tax', 'improvement_surcharge', 'congestion_surcharge', 'airport_fee']
+2024-12-07 17:12:23,194 - INFO - Object variables transformed for columns: ['store_and_fwd_flag']
+2024-12-07 17:12:24,385 - INFO - Feature engineering completed for columns: ['trip_distance', 'PULocationID', 'DOLocationID', 'fare_amount', 'extra', 'tolls_amount', 'total_amount'], date columns: ['tpep_pickup_datetime', 'tpep_dropoff_datetime'], and discrete columns: ['VendorID', 'passenger_count', 'RatecodeID', 'payment_type', 'mta_tax', 'improvement_surcharge', 'congestion_surcharge', 'airport_fee']
+2024-12-07 17:12:39,696 - INFO - Preprocessing completed successfully
