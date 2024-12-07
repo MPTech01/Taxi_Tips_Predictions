@@ -36,5 +36,5 @@ train_evaluate:
         test_size: 0.3
         random_state : 32
         shuffle: True 
-    model_evaluation: 
+
 
